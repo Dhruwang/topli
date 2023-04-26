@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from "./components/Home"
+import Topli from './components/Topli';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-      Welcome to Topli
-
-      </h1>
+      <Home />
+      <Topli />
     </div>
   );
 }
